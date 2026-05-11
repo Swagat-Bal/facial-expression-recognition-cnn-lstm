@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment and local secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training outputs and large model artifacts
+models/*
+!models/.gitkeep
+*.keras
+*.h5
+*.tflite
+*.ckpt
+logs/
+runs/
+
+# Local datasets
+dataset/*
+!dataset/.gitkeep
+face_expression_dataset/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+face_expression_dataset
